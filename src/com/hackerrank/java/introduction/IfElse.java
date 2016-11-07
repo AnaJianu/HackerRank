@@ -13,6 +13,8 @@ public class IfElse {
 
     public static void main(String[] args) {
 
+        System.out.printf("the %s jumped over the %s, %d times", "cop", "moon", 2);
+
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         String ans="";
